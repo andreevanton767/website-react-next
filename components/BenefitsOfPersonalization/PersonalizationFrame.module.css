@@ -1,0 +1,8 @@
+.mobilePane {
+  filter: drop-shadow(0 1.375rem 4.75rem #1b5172);
+  border: none;
+}
+.frame3Shadow {
+  filter: drop-shadow(-0.675rem 0.675rem 3.125rem rgba(0, 0, 0, 0.25));
+  border: none;
+}

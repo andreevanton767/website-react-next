@@ -1,0 +1,19 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import '../public/fonts/fonts.css';
+
+html,
+body {
+  scroll-behavior: smooth;
+  @apply font-sans m-0 p-0;
+}
+
+a {
+  @apply no-underline;
+  color: inherit;
+}
+
+* {
+  @apply box-border;
+}

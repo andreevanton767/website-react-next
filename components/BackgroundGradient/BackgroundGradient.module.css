@@ -1,0 +1,223 @@
+.homeTop {
+  position: absolute;
+  background: radial-gradient(
+    25% 40% at 65% 31%,
+    #1b5172 0%,
+    #164764 20%,
+    #123d57 33%,
+    #0c2f45 54%,
+    #08283b 78%,
+    #062233 100%
+  );
+
+  @screen lg {
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 105rem;
+    height: 75.75rem;
+  }
+}
+.home1 {
+  position: absolute;
+
+  background: #104262;
+  filter: blur(16.625rem);
+  transform: rotate(111deg);
+
+  @screen lg {
+    height: 90.75rem;
+    left: -25rem;
+    right: 56.25rem;
+    top: 82rem;
+  }
+
+  @screen 3xl {
+    left: -37.5rem;
+    right: 69rem;
+    top: 59.5rem;
+  }
+
+  @screen 3k {
+    left: -62.625rem;
+    right: 94rem;
+    top: -12.5rem;
+  }
+}
+.home2 {
+  position: absolute;
+
+  background: rgba(83, 208, 132, 0.24);
+  filter: blur(15.625rem);
+  transform: rotate(105deg);
+
+  @screen lg {
+    height: 74.5rem;
+    left: 75.5rem;
+    right: -42.875rem;
+    top: 41.125rem;
+  }
+
+  @screen 3k {
+    height: 37rem;
+    top: -28.6rem;
+    right: -55.325rem;
+  }
+}
+
+.home3 {
+  position: absolute;
+  background: #104262;
+
+  height: 103.875rem;
+  left: 4.875rem;
+  right: 7.75rem;
+  top: 28.875rem;
+
+  filter: blur(16.625rem);
+  transform: matrix(-0.05, -1, -1, 0.05, 0, 0);
+
+  @screen lg {
+    left: 42.375rem;
+    right: -29.75rem;
+    top: 291.375rem;
+  }
+  @screen 3k {
+    top: 353.875rem;
+  }
+}
+
+.about1 {
+  position: absolute;
+
+  background: #104262;
+  opacity: 0.5;
+  filter: blur(15.652rem);
+  transform: rotate(-59deg);
+
+  @screen lg {
+    width: 79rem;
+    height: 79rem;
+    right: -15rem;
+    top: 26.5rem;
+    z-index: 2;
+  }
+
+  @screen 3xl {
+    right: 22.5rem;
+    width: 116.5rem;
+    height: 91.5rem;
+  }
+}
+
+.about2 {
+  position: absolute;
+  background: #104262;
+  opacity: 0.5;
+  filter: blur(15.652rem);
+  transform: rotate(-39deg);
+
+  @screen lg {
+    width: 82rem;
+    left: -51.375rem;
+    height: 76.75rem;
+    top: 77.5rem;
+    z-index: 2;
+  }
+
+  @screen 3xl {
+    top: 65.175rem;
+  }
+
+  @screen 3k {
+    width: 82rem;
+    left: 23.625rem;
+  }
+}
+
+.contact {
+  position: absolute;
+
+  background: #104262;
+  opacity: 0.5;
+  filter: blur(15.652rem);
+
+  @screen lg {
+    width: 39.25rem;
+    height: 74.825rem;
+    left: 0rem;
+    top: 5rem;
+    z-index: 1;
+  }
+
+  @screen 3xl {
+    left: 12.5rem;
+  }
+
+  @screen 3xl {
+    left: 75rem;
+  }
+}
+
+.service1 {
+  position: absolute;
+  width: 41.75rem;
+  height: 41rem;
+  left: -25.875rem;
+  top: 20.25rem;
+
+  background: #104262;
+  filter: blur(7rem);
+  transform: rotate(-146deg);
+
+  @screen lg {
+    height: 90.75rem;
+    left: -33.5rem;
+    right: 58.825rem;
+    top: -7.125rem;
+    transform: rotate(-91.17deg);
+  }
+
+  @screen 2xl {
+    left: -21.125rem;
+    right: 33.75rem;
+  }
+
+  @screen 3xl {
+    left: 3.825rem;
+    filter: blur(11.5rem);
+  }
+}
+
+.service2 {
+  position: absolute;
+  width: 41.75rem;
+  height: 41rem;
+  left: 19.5rem;
+  top: 81.125rem;
+
+  background: #104262;
+  filter: blur(7rem);
+  transform: rotate(-117deg);
+
+  @screen lg {
+    width: 79rem;
+    height: 79rem;
+    left: auto;
+    right: -35rem;
+    top: 116.25rem;
+
+    transform: rotate(-59.21deg);
+  }
+
+  @screen 3xl {
+    height: 116.5rem;
+    filter: blur(11.5rem);
+  }
+
+  @screen 3k {
+    right: -22.5rem;
+    height: 129rem;
+    width: 54.25rem;
+  }
+}

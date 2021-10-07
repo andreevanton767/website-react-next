@@ -1,0 +1,11 @@
+.buttonUnderline::after {
+  position: absolute;
+  content: '';
+  height: 3px;
+  width: 25%;
+  bottom: 6px;
+  left: 37.5%;
+  background-color: #1743cd;
+  border: none;
+  border-radius: 3px;
+}

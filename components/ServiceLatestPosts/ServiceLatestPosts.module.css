@@ -1,0 +1,6 @@
+.offsetStart {
+  margin-right: calc((100% - 240px) / 2);
+}
+.offsetEnd {
+  margin-left: calc((100% - 240px) / 2);
+}

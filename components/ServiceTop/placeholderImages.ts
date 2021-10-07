@@ -1,0 +1,26 @@
+export default {
+  integrationImplementation:
+    'https://a.storyblok.com/f/98632/600x463/1edbee3ffd/integration-implementation.png',
+  affiliateMarketing:
+    'https://a.storyblok.com/f/98632/600x498/a4809bb40c/affiliate-marketing.png',
+  onlineAvertising:
+    'https://a.storyblok.com/f/98632/600x543/4b377425c7/online-advertising.png',
+  emailMarketing:
+    'https://a.storyblok.com/f/98632/600x502/229a79a030/email-marketing.png',
+  emailMarketingSM:
+    'https://a.storyblok.com/f/98632/384x293/a72fc2be69/email-marketing-mobile.png',
+  personalization:
+    'https://a.storyblok.com/f/98632/600x592/45612714ec/personalization.png',
+  personalizationSM:
+    'https://a.storyblok.com/f/98632/384x265/59391ea4d1/personalization-mobile.png',
+  marketingAutomation:
+    'https://a.storyblok.com/f/98632/600x593/9fc2eaab60/marketing-automation.png',
+  marketingAutomationSM:
+    'https://a.storyblok.com/f/98632/384x366/35d9ad9586/marketing-automation-mobile.png',
+  dataAnalytics:
+    'https://a.storyblok.com/f/98632/600x547/8356b5ab84/data-analytics.png',
+  dataAnalyticsSM:
+    'https://a.storyblok.com/f/98632/384x292/ba8ca87e6c/data-analytics-mobile.png',
+  conversionOptimization:
+    'https://a.storyblok.com/f/98632/600x497/b16ecf244e/conversion-optimization.png',
+};

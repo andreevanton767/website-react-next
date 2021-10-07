@@ -1,0 +1,12 @@
+.split {
+  position: relative;
+}
+.split::before {
+  content: '';
+  position: absolute;
+  top: 60px;
+  left: 0;
+  bottom: 60px;
+  width: 0;
+  border-left: 1px solid #e6e6e6;
+}

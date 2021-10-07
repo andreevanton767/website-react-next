@@ -1,0 +1,82 @@
+{
+  "name": "yeapersonalize",
+  "version": "0.1.0",
+  "private": true,
+  "author": {
+    "name": "Stack4World",
+    "email": "stack4world212@outlook.com",
+    "url": "https://github.com/stack4world"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export",
+    "lint": "eslint --ext .ts,.tsx",
+    "storybook": "start-storybook",
+    "watch-cards": "tsc libs/tailwind/cardsPlugin/testCards.ts -w",
+    "test-cards": "node libs/tailwind/cardsPlugin/testCards.js"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged && npm run lint"
+    }
+  },
+  "dependencies": {
+    "@apollo/client": "^3.3.4",
+    "@react-aria/button": "^3.3.0",
+    "@react-aria/interactions": "^3.3.3",
+    "@react-aria/link": "^3.1.2",
+    "@react-aria/searchfield": "^3.1.3",
+    "@react-aria/textfield": "^3.2.2",
+    "@react-hook/window-size": "^3.0.7",
+    "@tailwindcss/postcss7-compat": "^2.1.2",
+    "@types/cors": "^2.8.10",
+    "autoprefixer": "^9",
+    "axios": "^0.21.0",
+    "cors": "^2.8.5",
+    "css-loader": "^5.2.0",
+    "framer-motion": "^3.7.0",
+    "graphql": "^15.4.0",
+    "highlight.js": "^10.7.2",
+    "next": "^10.2.0",
+    "postcss": "^7",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "sass": "^1.32.8",
+    "sass-loader": "^10.1.1",
+    "smoothscroll-polyfill": "^0.4.4",
+    "storyblok-react": "^0.1.1",
+    "style-loader": "^2.0.0",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@storybook/addon-a11y": "^6.1.11",
+    "@storybook/addon-actions": "^6.1.11",
+    "@storybook/addon-docs": "^6.1.11",
+    "@storybook/addon-knobs": "^6.1.11",
+    "@storybook/addon-viewport": "^6.1.18",
+    "@storybook/react": "^6.1.11",
+    "@svgr/webpack": "^5.5.0",
+    "@types/node": "^14.14.10",
+    "@types/react": "^17.0.0",
+    "@typescript-eslint/eslint-plugin": "^4.10.0",
+    "@typescript-eslint/parser": "^4.10.0",
+    "awesome-typescript-loader": "^5.2.1",
+    "babel-loader": "^8.2.2",
+    "eslint": "^7.16.0",
+    "eslint-config-prettier": "^7.1.0",
+    "eslint-plugin-prettier": "^3.3.0",
+    "eslint-plugin-react": "^7.21.5",
+    "husky": "^4.3.6",
+    "postcss-preset-env": "^6.7.0",
+    "prettier": "^2.2.1",
+    "pretty-quick": "^3.1.0",
+    "react-docgen-typescript-loader": "^3.7.2",
+    "storybook-addon-next-router": "^2.0.4",
+    "storybook-addon-performance": "^0.13.0",
+    "svgo": "^2.3.0",
+    "typescript": "^4.1.2"
+  }
+}

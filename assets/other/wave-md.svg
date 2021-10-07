@@ -1,0 +1,20 @@
+<svg viewBox="0 0 1680 789" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<clipPath id="SVGclipPath">
+<path d="
+    M 0 357 
+    L 124 282 
+    C 219 225 331 208 438 234 
+    L 660 286 
+    C 787 317 922 286 1023 203 
+    L 1156 95 
+    C 1280 -6 1452 -28 1597 39 
+    L 1680 76
+    V 789
+    H 0 
+    V 357
+    Z"
+    stroke-width="4" stroke=""
+/></clipPath>
+</defs>   
+</svg>

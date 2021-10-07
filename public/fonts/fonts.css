@@ -1,0 +1,71 @@
+@font-face {
+  font-family: 'Galano Grotesque Alt';
+  font-weight: 800;
+  font-style: normal;
+  src: url('GalanoGrotesqueAlt-ExtraBold.ttf');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Galano Grotesque Alt';
+  font-weight: 700;
+  font-style: normal;
+  src: url('GalanoGrotesqueAlt-Bold.ttf');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Galano Grotesque Alt';
+  font-weight: 600;
+  font-style: normal;
+  src: url('GalanoGrotesqueAlt-SemiBold.ttf');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Galano Grotesque Alt';
+  font-weight: 500;
+  font-style: normal;
+  src: url('GalanoGrotesqueAlt-Medium.ttf');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Galano Grotesque Alt';
+  font-weight: 400;
+  font-style: normal;
+  src: url('GalanoGrotesqueAlt-Regular.ttf');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Nunito Sans';
+  font-weight: 800;
+  font-style: normal;
+  src: url('NunitoSans-ExtraBold.ttf');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Nunito Sans';
+  font-weight: 700;
+  font-style: normal;
+  src: url('NunitoSans-Bold.ttf');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Nunito Sans';
+  font-weight: 600;
+  font-style: normal;
+  src: url('NunitoSans-SemiBold.ttf');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Nunito Sans';
+  font-weight: 400;
+  font-style: normal;
+  src: url('NunitoSans-Regular.ttf');
+  font-display: swap;
+}

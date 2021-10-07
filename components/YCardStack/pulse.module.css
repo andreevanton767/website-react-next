@@ -1,0 +1,17 @@
+.pulse path {
+  stroke-dasharray: 10 490;
+  stroke-dashoffset: 0;
+
+  animation: stroke 1.5s infinite linear;
+}
+
+@keyframes stroke {
+  50% {
+    stroke-dasharray: 490 10;
+    stroke-dashoffset: 300;
+  }
+  100% {
+    stroke-dasharray: 10 490;
+    stroke-dashoffset: 500;
+  }
+}
